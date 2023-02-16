@@ -13,10 +13,38 @@
     background-color:aqua ;
     color:blue;
 }
-.Aunt{
-    color:blue;
+.AUNTCANDACE{
+    color:darkslateblue;
 }
-.Mary{
-    color:brown;
+.MARY{
+    color:darkgoldenrod;
 
+}
+table {
+    font-family:'Times New Roman', Times, serif;
+    border: 2px;
+    text-align: center;
+    border-collapse:collapse;
+    border-color: black;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border-color: black;
+}
+tr:nth-child(odd) {
+    background-color:aquamarine;
+}
+.AUNTCANDACE:hover
+{
+filter: blur(1px);
+border:solid 2px rgb(73, 14, 101);
+text-shadow: 5px 5px 5px rgb(55, 255, 0);
+}
+.MARY:hover
+{
+filter: blur(1px);
+border:solid 2px rgb(73, 14, 101);
+text-shadow: 5px 5px 5px rgb(55, 255, 0);
 }
